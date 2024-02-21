@@ -27,5 +27,13 @@ Paso 2: "Puertos"
 
 Paso 3: "Crear una coneccion"
         "En el inicio aparece My conection, al lado aparece una cruz muy pequeña, ahi puedes crear una coneccion y ponerle
-         nombre"            
-        
+         nombre"  
+        "Poner un puerto y luego conectar"
+
+Paso 4: "Crear, exportar, importar base de datos"
+        "Se puede crear una base de datos dentro de la conecion con CREATE DATABASE ... "
+        "Esa base de datos y sus tablas queda en la parte de abajo donde dice squemas"
+        "Para exporta o importar, aparece un acceso directo a la opciones
+         o en la parte de server, cuidado con las opciones"
+        "Para exportar solo buscarmos donde guardar la base de datos"
+        "Para importar buscamos la ubicacion de la base de datos"
