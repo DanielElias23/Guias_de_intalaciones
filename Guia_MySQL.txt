@@ -1,0 +1,31 @@
+#PASO A PASO
+
+MySQL es el mas utilizado en el mundo, teniendo muchas opciones de descargas y configuraciones
+
+Existen versiones gratuitas, pero que al reconocer trabajo como empresa empiezan a cobrar
+
+
+
+Paso 1: "Descargar MySQL"
+        "Para ello existen multiples descargas, elige MySQL Workbench"
+        "Al descargar pide tener cuenta de Oracle"
+        "Hay diferentes versiones unas mas livianos o pesadas, elegir la que mas te paresca"
+        "Al momento de descargar e instalar, saldran muchas opciones"
+        "Por si solo te descarga todas las utilidades FULL, SERVER, Gestor, etc..."
+        "Exigira crear una contraseña"
+        "Ademas un puerto de coneccion, si sale error elige otro"
+        "Siguiente a todo y listo"
+
+Paso 2: "Puertos"
+        "Como dije aveces hay problemas con los puertos al crear conecciones"
+        "Aveces hay puertos ocupados, de manera general se puede saber que esta ocupando esos puertos"
+        "Busca en el buscador de Window cmd, simbolos de sistema, en el ingresa "netstat -naob""
+        "En el saldran todos los puertes usados hay que buscarlos manualmente el que nos interesa y desintalar la aplicacion
+         que lo este ocupando"
+        "Tambien en el caso de MySQL se puede ocupar una aplicacion llamada XAMPP, que puede administrar los puertos ocupados
+         por MySQL puedes habilitar los que esten ocupados" "importante es que MariaDB ocupa los mismos puertos"
+
+Paso 3: "Crear una coneccion"
+        "En el inicio aparece My conection, al lado aparece una cruz muy pequeña, ahi puedes crear una coneccion y ponerle
+         nombre"            
+        
