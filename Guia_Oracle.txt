@@ -1,0 +1,48 @@
+#PASO A PASO
+
+Oracle es uno de los principales servidores de base de datos de medianas y grandes empresas
+
+Existe una version de pega y una version express, esta es la version express
+
+
+Paso 1:  Descargar Oracle express
+         "Es la version gratuita, buscar la zona de descargas"
+         "Descomprimir, abrir el wizard"
+         "Pedira que creemos una clave"
+         "Luego se instala se demora bastante"
+
+Paso 2:  Descargar un gestor Oracle SQL Developer
+         "Crear una cuenta gratuita de Oracle"
+         "Buscar donde descargar y descargar"
+         "Descomprimir y abrir aplicacion"
+
+Paso 3:  Definir una nueva coneccion a la base de datos
+         "En Developer en la cruz verde dice establecer coneccion con la base de datos"
+         "Definimos arriba un nombre para la coneccion"
+         "Despues cualquier usuario y la contraseña que se creo anteiormente"
+         "Luego nada mas, luego guardar y conectar"
+         "Ya con eso esta listo para entrar a la base de datos"
+
+Paso 4:  Crea usuario nuevo de manera correcta
+         "Puede que hallamos entrado con el usuario System, ese usuario ya tiene tablas cargadas por otras personas"
+         "Para crear una usuario nuevo, en el buscador de Window, buscamos SQL Plus y abrimos"
+         "Escribimos "/as sysdba" entramos con ese usuario para obtener todos los privilegios"
+         "Ingresamos----> "ALTER SESSION SET "_ORACLE_SCRIPT"= TRUE;"
+         "Modificamos la sesion, a continuacion creamos un usuario"
+         "CREATE USER USUARIO_DANIEL IDENTIFIED BY "clave_creada""
+         "2 DEFAULT TABLESPACE "USERS""
+         "3 TEMPORARY TABLESPACE "TEMP";"
+         "Con esto se crea el usuario"
+         "Los siguiente es dar permiso ilimitato de alamcenamiento"
+         "ALTER USER USUARIO_DANIEL QUOTA UNLIMITED ON USERS;"
+         "Necesita permiso de coneccion"
+         "GRANT CREATE SESSION TO USUARIO_DANIEL;"
+         "Otros permisos"
+         "GRANT "RESOURCE" TO USUARIO_DANIEL"
+         "ALTER USER USUARIO_DANIEL DEFAULT ROLE "RESOURCE";"
+         "El usuario ya esta creado con todos los permisos"
+        
+Paso 5:  Crea una nueva coneccion de la forma anterior
+
+Paso 6:  Ya puede ocupar los comandos de SQL, se puede hacer graficamente o con comandos
+
